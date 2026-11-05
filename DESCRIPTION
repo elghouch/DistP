@@ -1,0 +1,20 @@
+Package: DistP
+Title: Normal vs Studnet's t desnity 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Anouar",
+           family = "El Ghouch",
+           role = c("aut", "cre"),
+           email = "anouar.elghouch@uclouvain.be")
+Description: This package provides an easy way to plot both the Normal density 
+    and the Student density in the same graph using `ggplot2`. 
+    The plot also shows shaded areas under each density corresponding to 
+    a user-specified interval. 
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    ggplot2 (>= 4.0.3)
+Depends: 
+    R (>= 4.1.0)
